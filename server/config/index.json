@@ -1,0 +1,7 @@
+{
+  "dbUri": {
+    "development": "mongodb://localhost/example3",
+    "test": "mongodb://localhost/example3-test"
+  },
+  "jwtSecret": "MyS3cr3tK3Y"
+}

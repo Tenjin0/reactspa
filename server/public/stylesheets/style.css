@@ -1,0 +1,237 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #f1f1f1;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#appBar {
+  position: fixed !important;
+  left:0;
+  top:0;
+}
+#content {
+  margin-top: 20px;
+}
+
+#login-card {
+    width: 300px;
+    margin: 15px auto;
+    padding: 23px;
+}
+
+#register-card {
+    width: 42em;
+    margin: 1em auto;
+    padding: 2em;
+}
+
+.field-line.inline {
+  display : inline-block;
+}
+
+
+.field-line.inline.right {
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 2em;
+}
+
+.form-group.field-line {
+  vertical-align: text-bottom;
+}
+.button-line {
+
+    text-align: center;
+}
+.card-wrapper {
+    position : relative;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  background-color : white;
+}
+.card .card__title {
+  display : inline-block;
+  font-weight: bold;
+}
+.card .card__toggle {
+  display : inline-block;
+  float: right;
+}
+
+.list__title {
+  display: inline-block;
+  width : 85%;
+  padding-top: 13px;
+  padding-left: 15px;
+}
+
+.card {
+  padding: 0px 0px 3px !important;
+}
+.card .card__header {
+    margin-bottom: 15px;
+}
+
+.card .card__description {
+    padding-bottom: 10px;
+}
+.card .card__actions {
+    position: absolute;
+    padding: 0px 5px 5px;
+    z-index: 0 !important;
+    right: -50px;
+    top: 0;
+}
+
+.card .card__edit {
+  position: relative;
+  left: 78%;
+}
+.card > div {
+  padding: 16px 16px 0 !important;
+}
+.task .task__check {
+  width: 9%;
+  display: inline-block;
+}
+
+.task .task__name {
+  display: inline-block;
+  vertical-align: super;
+}
+
+.task .task__delete {
+  display: inline-block;
+}
+
+.task-enter {
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.task-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s ease;
+}
+
+.task-leave {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.task-leave-active {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: 1s ease;
+}
+
+.cardcontent-enter {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.cardcontent-enter-active {
+    opacity: 1;
+    max-height: initial;
+    transition: 2s ease;
+}
+
+.cardcontent-leave {
+    opacity: 1;
+    max-height: initial;
+    overflow: hidden;
+}
+
+.cardcontent-leave-active {
+    opacity: 0;
+    max-height: 0;
+    transition: 2s ease;
+}
+
+.cardaction-enter {
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.cardaction-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.5s ease;
+}
+
+.cardaction-leave {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.cardaction-leave-active {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: 0.5s ease;
+}
+
+.card-enter {
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.card-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.5s ease;
+}
+
+.card-leave {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.card-leave-active {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: 0.5s ease;
+}
+
+.searchbar {
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    margin-right: 40px;
+}
+.searchbar {
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    margin-right: 40px;
+}
+
+.searchbar button{
+    border :none;
+    border-radius : 0px 40px 40px 0px;
+    height: 1.8em;
+}
+
+.searchbar input {
+    border :none;
+    border-radius : 40px 0px 0px 40px;
+    height: 2.2em;
+    padding-left: 15px;
+}
+
+searchbar input:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+input:-webkit-autofill:focus {
+  /*-webkit-box-shadow: 0 0 0px 1000px #EDEDED inset !important;*/
+}
